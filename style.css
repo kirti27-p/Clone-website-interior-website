@@ -1,0 +1,380 @@
+/* navbar */
+
+.navbar{
+    height: 1000px;
+    width:187px;
+}
+.navbar li{
+    font-weight: 700;
+    font-size: medium;
+    line-height: 3; 
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+.navbar .li1,
+.navbar .li1 a{
+  line-height: 2; 
+  margin-top: -10px;
+  font-weight:500;
+}
+ body p, label
+ {
+  font-family: 'Times New Roman ', serif;
+ }
+a{
+  text-decoration: none;
+  color: #3b3f4a;
+  font-weight:400;
+  font-size:0.89rem;
+  font-family:"Roboto", Helvetica, Arial, Verdana, sans-serif;
+}
+a:hover{
+  color: black;
+}
+
+ body h6,h5,h4
+ {
+  font-family: 'Raleway';
+  font-weight:600;
+  color: #000;
+}
+body li{
+  color: #000;
+}
+#home p{
+    text-align: justify;
+     color: #000000;
+     font-size:1rem;
+     line-height: normal;
+}
+.b-image .bg-warning1,
+.b-image1 .bg-warning1,
+.b-image2 .bg-warning1{
+  width:490px ;
+}
+.bg-warning1{
+  background-color: #dd8d16;
+}
+p{
+    color: #000;
+     text-align: justify;
+    
+}
+.b-image{
+  background-image: url("images/15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 1270px;
+}
+.b-image1{
+  background-image: url("img/44.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed center;
+    height: 545px;
+    width: 1270px;
+}
+
+/* popup box */
+.s1__title {
+  font-size: 2rem;
+  margin-bottom:20px;
+  font-weight: 900;
+  }
+  
+  .s1__button {
+  cursor: pointer;
+  font-size: 1rem;
+  }
+  
+  .s1__button:hover .button__icon {
+  transform: translateX(0.25rem);
+  }
+  
+  .s1__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  overflow-y: scroll;
+  }
+  
+  .s1__modal-content {
+  position: relative;
+  background-color: white;
+  padding:1rem 1rem 1rem 0;
+  border:black 2px solid;
+  margin:13rem 20rem 0 20rem;
+
+  }
+  
+  .s1__modal-s1 {
+  row-gap: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .s1__modal-service {
+  display: flex;
+  }
+  
+  .s1__modal-title {
+  font-size: 2rem;
+  font-weight:900;
+  margin-bottom: 0px;
+  }
+  
+  .s1__modal-close {
+  position: absolute;
+  top:-3rem;
+  right: -20rem;
+  font-size:8rem;
+  color:white;
+  cursor: pointer;
+  }
+  
+  .s1__modal-icon {
+  color:rgb(241, 5, 45);
+  margin-right: 10px;
+  }
+  
+  .active-modal {
+  opacity: 1;
+  visibility: visible;
+  }
+
+  .scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: 30%;
+    background-color: black;
+    opacity: 0.6;
+    padding: 0 0.3rem;
+    /* border-radius: 0.4rem; */
+    z-index: 1;
+    transition: 0.4s;
+  }
+  
+  .scrollup:hover {
+    background-color:black ;
+  }
+  
+  .scrollup__icon {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  /* Show scroll */
+  .show-scroll {
+    bottom: 5rem;
+  }
+
+  /* Gallery */
+  .gallery .h6{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+  }
+  .gallery .col-md-5 h6{
+    margin-bottom:20px;
+    font-weight: 600;
+  }
+ .gallery .button__icon{
+  background:orange;
+  color:#FFFFFF;
+  padding:10px; 
+  border: #fff;
+ }
+ .gallery .button__icon:hover{
+  background:#dd8d16;
+ }
+ .gallery .image,
+ .gallery .image1{
+  margin-bottom:0px;
+ }
+ .gallery .image:hover,
+ .gallery .image1:hover{
+transform: scale(1.2);
+ }
+ /* contact form */
+ .b-image2{
+  background-image: url("img/demo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 1270px;
+}
+ .container1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+ 
+ form{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 10px;
+ }
+
+ label{
+font-weight: 500;
+color: black;
+ }
+
+ form h6{
+       font-weight: 600;
+       font-family: 'Raleway';
+ }
+ 
+ form input, form textarea{
+     border:3px solid black;
+     margin:0 0 10px 0;
+     outline: none;
+     background:transparent;
+ }
+ 
+ form button{
+     background:black;
+     color:#fff;
+     font-size: 18px;
+     border: 0;
+     outline: none;
+     cursor: pointer;
+     width: 100px;
+ }
+
+ .b-image2 .error{
+  color:red;
+  font-size:16px;
+  margin-bottom:1rem;
+}
+
+ /* Footer */
+ .footer{
+  color:white;
+  background-color: #403e3e;
+  padding: 20px;
+  width:1270px;
+  margin-left: -12px;
+  padding-left: 70px;
+ }
+
+
+ /*image slideshow */
+ 
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color:rgba(0, 0, 0, 0.7);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 10px;
+  width: 755px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  right:22%;
+  top:60px;
+  font-size:40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(226, 215, 215);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides,
+.mySlides1 {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: grey;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: whitesmoke;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: whitesmoke;
+}
+
+/* Number text (1/3 etc) */
+.numbertext,
+.numbertext1{
+  font-size: 15px;
+}
+
+.gallery img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  padding: 2px 16px;
+  color:#f2f2f2;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
